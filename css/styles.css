@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@100&display=swap");
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -49,13 +50,34 @@ body {
 
 .btn {
   font-size: 18px;
-  background-color: #FFC633;
-  color: #000;
   border-radius: 30px;
   padding: 0.5rem 2rem;
   outline: none;
   border: none;
+}
+
+.btn-yellow {
+  background-color: #FFC633;
+  color: #000;
+  font-weight: 700;
+}
+
+.btn-purple {
+  background-color: #24173D;
+  color: #fff;
+  text-transform: uppercase;
   font-weight: 500;
+  padding: 1rem 2rem;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+
+body {
+  font-family: "Montserrat";
 }
 
 header .container {
@@ -84,13 +106,66 @@ header .tel {
   min-width: 100vw;
   color: #fff;
 }
-.section1 .title {
-  font-size: 67px;
-  margin: 40px 0 0;
+.section1 .text {
+  margin-top: 100px;
+  padding-right: 20px;
 }
-.section1 .title-1 {
-  font-size: 29px;
+.section1 .text .title {
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.section1 .title-2 {
-  font-size: 56px;
+.section1 .text .title-1 {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.section1 .text .title-2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.section1 .text P {
+  font-size: 24px;
+}
+.section1 .text span {
+  color: #FFC633;
+}
+.section1 .text .p1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.section1 form {
+  margin-top: 80px;
+  padding: 30px 50px;
+  background: #FFC633;
+  text-transform: uppercase;
+  border-radius: 30px;
+  min-width: 500px;
+}
+.section1 form .title {
+  color: #24173D;
+  font-size: 4em;
+  margin: 0 0;
+  font-weight: 700;
+}
+.section1 form .title-1 {
+  color: #24173D;
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.section1 form .title-2 {
+  font-size: 1em;
+  font-weight: 500;
+}
+.section1 form input {
+  height: 50px;
+  width: 100%;
+  margin: 20px 10px 0 0;
+  border-radius: 5px;
+}
+.section1 form .btn-purple {
+  margin-top: 30px;
 }

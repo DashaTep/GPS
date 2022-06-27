@@ -22,17 +22,34 @@ body {
     justify-content: space-between;
 }
 
-.a-i-center{
+.a-i-center {
     align-items: center;
 }
 
 .btn {
     font-size: 18px;
-    background-color: $yellow;
-    color: #000;
     border-radius: 30px;
     padding: 0.5rem 2rem;
     outline: none;
     border: none;
+}
+
+.btn-yellow {
+    background-color: $yellow;
+    color: #000;
+    font-weight: 700;
+}
+
+.btn-purple {
+    background-color: $purple;
+    color: #fff;
+    text-transform: uppercase;
     font-weight: 500;
+    padding: 1rem 2rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 0 10px;
 }

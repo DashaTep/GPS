@@ -1,6 +1,11 @@
 @import "_container";
 @import "_colors";
 @import "_common";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@100&display=swap");
+
+body {
+    font-family: "Montserrat";
+}
 
 header {
     .container {
@@ -32,16 +37,75 @@ header {
     min-width: 100vw;
     color: #fff;
 
-    .title {
-        font-size: 67px;
-        margin: 40px 0 0;
+    .text {
+        margin-top: 100px;
+        padding-right: 20px;
+        .title {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .title-1 {
+            font-size: 1.5em;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+
+        .title-2 {
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        P {
+            font-size: 24px;
+        }
+
+        span {
+            color: $yellow;
+        }
+
+        .p1 {
+            font-size: 26px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
     }
 
-    .title-1 {
-        font-size: 29px;
-    }
+    form {
+        margin-top: 80px;
+        padding: 30px 50px;
+        background: $yellow;
+        text-transform: uppercase;
+        border-radius: 30px;
+        min-width: 500px;
+        .title {
+            color: $purple;
+            font-size: 4em;
+            margin: 0 0;
+            font-weight: 700;
+        }
+        .title-1 {
+            color: $purple;
+            margin: 0;
+            font-size: 1.3em;
+            font-weight: 500;
+        }
+        .title-2 {
+            font-size: 1em;
+            font-weight: 500;
+        }
 
-    .title-2 {
-        font-size: 56px;
+        input {
+            height: 50px;
+            width: 100%;
+            margin: 20px 10px 0 0;
+            border-radius: 5px;
+        }
+
+        .btn-purple {
+            margin-top: 30px;
+        }
     }
 }
