@@ -1,0 +1,47 @@
+@import "_container";
+@import "_colors";
+@import "_common";
+
+header {
+    .container {
+        padding: 20px 0;
+    }
+
+    img {
+        height: 70px;
+        padding-right: 30px;
+        border-right: 3px solid #3b393c;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        width: 400px;
+        margin-left: 30px;
+    }
+    .tel {
+        width: auto;
+        margin-right: 20px;
+    }
+}
+
+.section1 {
+    background: url(../assets/img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    min-width: 100vw;
+    color: #fff;
+
+    .title {
+        font-size: 67px;
+        margin: 40px 0 0;
+    }
+
+    .title-1 {
+        font-size: 29px;
+    }
+
+    .title-2 {
+        font-size: 56px;
+    }
+}

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+}
+
+.j-c-between {
+    justify-content: space-between;
+}
+
+.a-i-center{
+    align-items: center;
+}
+
+.btn {
+    font-size: 18px;
+    background-color: $yellow;
+    color: #000;
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}

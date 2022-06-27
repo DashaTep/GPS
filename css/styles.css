@@ -1,0 +1,96 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}
+body {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+}
+
+.j-c-between {
+  justify-content: space-between;
+}
+
+.a-i-center {
+  align-items: center;
+}
+
+.btn {
+  font-size: 18px;
+  background-color: #FFC633;
+  color: #000;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  outline: none;
+  border: none;
+  font-weight: 500;
+}
+
+header .container {
+  padding: 20px 0;
+}
+header img {
+  height: 70px;
+  padding-right: 30px;
+  border-right: 3px solid #3b393c;
+}
+header h2 {
+  text-transform: uppercase;
+  width: 400px;
+  margin-left: 30px;
+}
+header .tel {
+  width: auto;
+  margin-right: 20px;
+}
+
+.section1 {
+  background: url(../assets/img/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  min-width: 100vw;
+  color: #fff;
+}
+.section1 .title {
+  font-size: 67px;
+  margin: 40px 0 0;
+}
+.section1 .title-1 {
+  font-size: 29px;
+}
+.section1 .title-2 {
+  font-size: 56px;
+}
