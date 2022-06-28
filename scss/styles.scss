@@ -105,9 +105,6 @@ header {
             height: 50px;
             width: 100%;
             margin: 20px 10px 0 0;
-            border-radius: 5px;
-            font-size: 16px;
-            font-weight: 300;
         }
 
         .btn-purple {
@@ -293,9 +290,42 @@ header {
 }
 
 .section5 {
+    background: url(../assets/img/back2.png);
+    background-size: cover;
+    .container {
+        margin-top: 50px;
+        padding: 50px;
+    }
+    h1,
+    p {
+        color: #fff;
+    }
+
+    p {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .inputs {
+        margin: 50px auto;
+        width: 80%;
+
+        button {
+            font-size: 18px;
+            border-radius: 5px;
+            min-width: 250px;
+            height: 60px;
+        }
+        input {
+            width: 100%;
+            margin: 0 20px 0 0;
+        }
+    }
 }
 
-.section6 {
+footer {
+    padding: 50px 0 0 0;
     p {
         font-weight: 300;
         font-size: 15px;
