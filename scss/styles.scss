@@ -8,8 +8,8 @@ body {
 }
 .title-section {
     font-weight: 700;
-    font-size: 44px;
-    font-size: 2.6em;
+    font-size: 35px;
+    margin: 0;
 }
 
 header {
@@ -106,6 +106,8 @@ header {
             width: 100%;
             margin: 20px 10px 0 0;
             border-radius: 5px;
+            font-size: 16px;
+            font-weight: 300;
         }
 
         .btn-purple {
@@ -116,14 +118,13 @@ header {
 
 .section2 {
     max-width: 1400px;
-    margin: 100px auto;
+    margin: 50px auto;
     background: url(../assets/img/Subtract.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
     h1 {
-        font-size: 35px;
         padding-bottom: 25px;
         margin: 0;
         transform: translateY(-12px);
@@ -151,6 +152,9 @@ header {
 }
 
 .section3 {
+    .title-section {
+        margin-bottom: 50px;
+    }
     .photos {
         flex-wrap: wrap;
         .btn {
@@ -192,12 +196,114 @@ header {
             width: 100%;
             margin-top: 2px;
             .item {
-                width: calc(50vw - 1px);
+                width: 50vw;
                 overflow: hidden;
                 img {
-                    width: calc(100% - 1px);
+                    width: calc(100% - 2px);
                 }
             }
+        }
+    }
+}
+
+.section4 {
+    .hr {
+        width: 2px;
+        height: 140px;
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .container {
+        margin: 50px auto;
+        position: relative;
+    }
+    .text {
+        font-size: 35px;
+        color: $purple;
+        border-left: 5px solid $purple;
+        padding: 30px 0 30px 30px;
+        font-weight: 700;
+        width: 45%;
+        text-transform: uppercase;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 25%;
+        height: 100%;
+        justify-content: start;
+
+        div:nth-child(1) {
+            margin-bottom: 20px;
+            margin-bottom: 20px;
+            min-height: 75px;
+            display: flex;
+            align-items: end;
+        }
+        div:nth-child(2) {
+            height: 75px;
+        }
+        div:nth-child(3) {
+            margin-top: 20px;
+        }
+    }
+    .item:nth-child(2) {
+        border-right: 2px solid rgba(255, 255, 255, 0.2);
+        border-left: 2px solid rgba(255, 255, 255, 0.2);
+        padding: 0 20px;
+    }
+    .item:nth-child(3) {
+        width: 30%;
+    }
+    .card2 {
+        background: $yellow;
+        width: 50vw;
+        position: absolute;
+        height: 316px;
+        right: 0;
+    }
+    .card {
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        background: $yellow;
+        margin-left: 20px;
+        border-radius: 30px 0 0 30px;
+        padding: 40px 0 40px 40px;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: uppercase;
+
+        span {
+            color: $purple;
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        .item div:nth-child(2) {
+            font-size: 30px;
+            color: $purple;
+            font-weight: 700;
+            text-transform: lowercase;
+            border-top: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+        }
+    }
+}
+
+.section5 {
+}
+
+.section6 {
+    p {
+        font-weight: 300;
+        font-size: 15px;
+        width: 50%;
+        margin: 30px auto;
+        color: #4a4a4a;
+        span {
+            color: #f8b500;
         }
     }
 }
