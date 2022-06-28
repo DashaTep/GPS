@@ -32,12 +32,20 @@ body {
     padding: 0.5rem 2rem;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .btn-yellow {
     background-color: $yellow;
     color: #000;
     font-weight: 700;
+}
+
+.btn-yellow-light {
+    background-color: $yellow-light;
+    color: #000;
+    font-weight: 700;
+    padding: 0.8rem 2.5rem;
 }
 
 .btn-purple {

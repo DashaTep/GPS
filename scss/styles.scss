@@ -6,6 +6,11 @@
 body {
     font-family: "Montserrat";
 }
+.title-section {
+    font-weight: 700;
+    font-size: 44px;
+    font-size: 2.6em;
+}
 
 header {
     .container {
@@ -34,7 +39,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 700px;
-    min-width: 100vw;
     color: #fff;
 
     .text {
@@ -106,6 +110,94 @@ header {
 
         .btn-purple {
             margin-top: 30px;
+        }
+    }
+}
+
+.section2 {
+    max-width: 1400px;
+    margin: 100px auto;
+    background: url(../assets/img/Subtract.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1 {
+        font-size: 35px;
+        padding-bottom: 25px;
+        margin: 0;
+        transform: translateY(-12px);
+    }
+
+    .benefits {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+
+    .item {
+        align-items: center;
+        max-width: 30%;
+        margin-bottom: 25px;
+        p {
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        img {
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
+
+.section3 {
+    .photos {
+        flex-wrap: wrap;
+        .btn {
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h3 {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            color: white;
+            font-size: 25px;
+            font-weight: 600;
+            transform: translate(-50%, -50%);
+        }
+
+        .item {
+            position: relative;
+        }
+
+        .three {
+            width: 100%;
+            .item {
+                width: calc(100vw / 3);
+                overflow: hidden;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .item:nth-child(2) {
+                padding: 0 2px;
+            }
+        }
+        .two {
+            width: 100%;
+            margin-top: 2px;
+            .item {
+                width: calc(50vw - 1px);
+                overflow: hidden;
+                img {
+                    width: calc(100% - 1px);
+                }
+            }
         }
     }
 }
